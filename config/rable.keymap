@@ -17,7 +17,7 @@
 
         default_layer {
             bindings = <
-       &trans     &gresc  &kp N1        &kp N2       &kp N3         &kp N4  &kp N5     &kp N6  &kp N7     &kp N8   &kp N9    &kp N0  &kp MINUS   &kp EQUAL  &kp BACKSLASH   &kp TILDE  &trans
+       &trans     &gresc  &kp N1        &kp N2       &kp N3         &kp N4  &kp N5     &kp N6  &kp N7     &kp N8   &kp N9    &kp N0  &kp MINUS   &kp EQUAL  &kp BACKSLASH   &kp GRAVE  &trans
      &kp HOME    &kp TAB   &kp Q         &kp W        &kp E          &kp R   &kp T      &kp Y   &kp U      &kp I    &kp O     &kp P   &kp LBKT    &kp RBKT  &kp BACKSPACE  &kp DELETE
   &kp PAGE_UP   &kp CLCK   &kp A         &kp S        &kp D          &kp F   &kp G      &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT     &kp RET         &trans
 &kp PAGE_DOWN  &kp LSHFT   &kp Z         &kp X        &kp C          &kp V   &kp B      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp DELETE         &trans
@@ -27,11 +27,11 @@
 
         arrow_layer {
             bindings = <
-       &trans  &kp GRAVE          &kp F1          &kp F2           &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans
-       &trans     &trans          &trans    &kp UP_ARROW           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
-&kp LG(LS(S))     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
-       &trans     &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
-       &trans     &trans          &trans    &kp CAPSLOCK           &trans  &trans  &trans  &trans  &trans
+       &trans  &trans          &kp F1          &kp F2           &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans
+       &trans  &trans          &trans    &kp UP_ARROW           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
+&kp LG(LS(S))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
+       &trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
+       &trans  &trans          &trans    &kp CAPSLOCK           &trans  &trans  &trans  &trans  &trans
             >;
         };
 
